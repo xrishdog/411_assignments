@@ -44,7 +44,8 @@ class Meal:
 
 
 def create_meal(meal: str, cuisine: str, price: float, difficulty: str) -> None:
-    """Creates a new meal entry in the database.
+    """
+    Creates a new meal entry in the database.
 
     Validates input parameters and inserts a new meal into the meals table in the database.
 
