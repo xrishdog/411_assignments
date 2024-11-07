@@ -2,6 +2,7 @@ import pytest
 
 from music_collection.models.playlist_model import PlaylistModel
 from music_collection.models.song_model import Song
+from unittest.mock import patch
 
 
 @pytest.fixture()
