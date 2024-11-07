@@ -16,7 +16,7 @@ def mock_update_meal_status(mocker):
     return mocker.patch("meal_max.models.kitchen_model.update_meal_status")
 
 
-"""Fixtures providing sample songs for the tests."""
+"""Fixtures providing sample meals for the tests."""
 @pytest.fixture
 def sample_meal1():
     return Meal(1, 'Steak', 'American', 40.50, 'HIGH')
