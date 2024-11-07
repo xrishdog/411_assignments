@@ -1,7 +1,14 @@
 {
+<<<<<<< HEAD
     "python.testing.pytestArgs": [
         "docstrings_testing"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
 }
+=======
+    "python.testing.pytestArgs": ["docstrings_testing"],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
+>>>>>>> e2bee31 (Did some of the unit tests for kitchen model)
